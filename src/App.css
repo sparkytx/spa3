@@ -13,17 +13,51 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 2vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: calc(16px + 2vmin);
+  color: white;
+}
+.App-body{
+  background-color: beige;
+  max-height: 80vh;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.App-footer{
+  background-color: darkred;
+  min-height: 5vh;
+  max-height:10px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  justify-content: center;
+  padding-right: 50px;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+
+.headerbox {
+  border-style: solid;
+  border-color: black;
+  align-content: center;
+  justify-content: center;
+  min-height:30px;
+}
+.button{
+  /*min-width: 10vw;*/
+  font-size: calc(10px + 2vmin);
+  padding: "50px";
+  height: auto;
+  max-width: 60vw;
+}
 .App-link {
   color: #61dafb;
 }

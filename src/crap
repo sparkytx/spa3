@@ -1,0 +1,26 @@
+
+ curl -X PUT -d '{   "stegosaurus": {    "height": 12.5,     "length": 9,    "weight": 2500  }}' 'https://movie-quizard-default-rtdb.firebaseio.com/rest/animals.js
+
+ curl -X PUT -d '{
+  "lambeosaurus": {
+    "height": 2.1,
+    "length": 12.5,
+    "weight": 5000
+  },
+  "stegosaurus": {
+    "height": 4,
+    "length": 9,
+    "weight": 2500
+  }
+}' 'https://movie-quizard-default-rtdb.firebaseio.com/rest/animals.json'
+
+
+
+
+ curl -X PUT -d '{
+  "lambeosaurus": {
+    "height": 2.1,
+    "length": 12.5,
+    "weight": 5000
+  }
+}' 'https://movie-quizard-default-rtdb.firebaseio.com/rest/animals.json'

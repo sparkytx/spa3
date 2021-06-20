@@ -1,0 +1,21 @@
+.EditList {
+    padding-inline-start: 5px;
+    padding: 0px 50px 10px 50px;
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    flex-grow: 1;
+}
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.SaveButton{
+    display: flex;
+    padding-bottom: 20px;
+   justify-content: center;
+}
+
+
